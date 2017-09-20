@@ -1,0 +1,41 @@
+h2 {
+    text-align: right ;
+}
+
+p {
+    color: black;
+    text-align: justify;
+    font-size: 1emem;
+}
+
+h3 {
+    color: #4C7A7A;
+    text-align:center;
+    font-size: 1.2em;
+
+}
+
+.w3-container {
+    padding:10px;
+    margin: 20px 20px 5em;
+    grid-row: auto;
+}
+
+h4 {
+    color:#4C7A7A
+
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(typo.ttf)
+}
+
+body h2 {
+    font-family: myfont;
+    font-size: 4em; 
+}
+
+img {
+    max-width: 100%; 
+}
