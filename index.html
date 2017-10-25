@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108240512-1"></script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-108240512-1');
+    </script>
+
+    <meta charset="UTF-8" />
+    <meta name="description" content="Etudiante en Communication Digitale à l'ESDES, Chargée de Marketing Opérationnel en alternance chez GRDF à Lyon, année 2017-2018."
+    />
+
+    <title>Marine Robert – Communication Digitale et Marketing</title>
+
+    <link rel="stylesheet" href="w3.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+</head>
+
+<body>
+    <aside class="w3-sidebar w3-bar-block w3-animate-left w3-text-teal w3-collapse w3-top w3-center">
+        <h3 class="w3-padding-64 w3-center"><b>PORTFOLIO</b></h3>
+        <img src="img/img.jpg" width="70%" class="w3-round"><br><br>
+
+        <a href="index.html" class="w3-bar-item w3-button">ACCUEIL</a>
+        <a href="#" class="w3-bar-item w3-button">FORMATION</a>
+        <a href="startup.html" class="w3-bar-item w3-button">EXPERIENCES</a>
+        <a href="#" class="w3-bar-item w3-button">CONTACT</a>
+
+        <br>
+        <br>
+
+        <section>
+            <button id="myButton" onclick="changeClass('nouveau name')"><span class="glyphicon glyphicon-globe"></span></button>
+        </section>
+
+
+    </aside>
+
+    <main>
+
+        <header class="w3-center">
+            <h1> Marine Robert</h1>
+        </header>
+
+        <section class="w3-container w3-padding-large" style="margin-bottom:32px">
+            <div class="w3-col m6">
+                <img src="img2.jpeg" alt="Me" style="width:100%">
+            </div>
+            <div class="w3-col m6">
+                <img src="img3.jpg" alt="beach" style="width:100%">
+            </div>
+
+            <h2><b>A propos</b></h2>
+            <p>Actuellement étudiante en Bachelor Communication Digitale et Management, j'effectue mon alternance en tant que
+                chargée de Marketing Opérationnel chez GRDF.</p>
+
+
+        </section>
+
+        <section class="w3-container w3-padding-large" style="margin-bottom:32px">
+            <h2><b>Mon experience</b></h2>
+            <img src="img4.jpg" alt="experiences" style="width:100%">
+
+        </section>
+
+        <section>
+
+            <h5>
+                <p>Cliquer pour afficher/masquer la rubrique contact.</p>
+            </h5>
+
+            <button onclick="w3.hide('.contact')">Hide</button>
+            <button onclick="w3.show('.contact')">Show</button>
+
+        </section>
+
+        <section class="contact">
+            <div class="bgimg-3 w3-display-container w3-opacity-min">
+                <div class="w3-display-middle">
+                    <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+                </div>
+            </div>
+
+
+            <div class="w3-content w3-container w3-padding-64" id="contact">
+                <h3 class="w3-center">Où je travaille :</h3>
+                <p class="w3-center"><em>Contactez-moi !</em></p>
+                <div class="w3-row w3-padding-32 w3-section">
+                    <div class="w3-col m4 w3-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.607322817974!2d4.86161026076749!3d45.7590177016866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4ea7c6431bc0b%3A0x43221e30b03e6ba!2sAvenue+Georges+Pompidou%2C+69003+Lyon!5e0!3m2!1sfr!2sfr!4v1508585697156"
+                            width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                    <div class="w3-col m8 w3-panel">
+                        <div class="w3-large w3-margin-bottom">
+                            <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Lyon, France<br>
+                            <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Numéro : 0606060606<br>
+                            <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: mail@mail.com<br>
+                        </div>
+                        <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+                        <form action="/action_page.php" target="_blank">
+                            <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                                <div class="w3-half">
+                                    <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                                </div>
+                                <div class="w3-half">
+                                    <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+                                </div>
+                                <div>
+                                    <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+                                    <button class="w3-button w3-black w3-right w3-section" type="submit">
+                                 <i class="fa fa-paper-plane"></i> ENVOYER MESSAGE 
+                                 </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+    </main>
+    <footer class="w3-container w3-padding-32 w3-teal">
+        <div class="w3-row-padding">
+            <div class="w3-third">
+                <h3>FOOTER</h3>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+<script src="index.js"></script>
+<script src="w3.js"></script>
+
+</html>
