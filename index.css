@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+}
+header {
+    height: 100%;
+    background-image: url("img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    color: white; 
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+    font-family: 'Poiret One', sans-serif;
+    background-color: rgba(0, 0, 0, 0.35);
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    transition: background-color 0.3s ease-in-out;
+
+}
+
+h1:hover{
+    background-color: rgba(0, 0, 0, 0.74);
+}
+
+section {
+    min-height: 100%;
+    background: linear-gradient(to right, #ffd89b, #19547b);
+    padding: 20px;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+article {
+    position: relative;
+    width: 20%;
+    margin: 20px;
+    color: white; 
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+    font-family: 'Poiret One', sans-serif;
+    /*background-image: url("img/background.jpg");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid white;
+    padding: 40px;
+    filter: grayscale(0);
+    overflow: hidden;
+    transition: all 0.2s ease-in-out;
+    
+}
+
+.bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    filter: grayscale(1);
+    transition: all 0,2s ease-in-out;
+}
+
+article:hover .bg-img{
+     filter: grayscale(0); 
+     transform: scale(1.5);
+}
+
+article h2{
+
+    background-color: rgba(27, 27, 27, 0.35);
+    padding: 10px;
+
+}
+
+/*Images of articles*/
+#article1 {background-image: url("img/art1.jpg")}
+#article2 {background-image: url("img/art2.jpg")}
+#article3 {background-image: url("img/art3.jpg")}
+#article4 {background-image: url("img/art4.jpg")}
+#article5 {background-image: url("img/art5.jpg")}
+#article6 {background-image: url("img/art6.jpg")}
+
+
+/* For mobile phones: */
+@media only screen and (max-width: 600px) {
+
+    section {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    article {
+        width: 80%;
+    }
+
+}
+
+ /* For tablets: */
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+
+    article {
+        width: 50%;
+    }
+
+}
+
+ /* For desktop: */
+@media only screen and (min-width: 900px) {
+
+}
+
+
