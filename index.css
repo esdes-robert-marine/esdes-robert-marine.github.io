@@ -47,10 +47,7 @@ header h1{
 }
 
 svg {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 150%;
 }
 
 h1:hover{
