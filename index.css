@@ -46,6 +46,13 @@ header h1{
 
 }
 
+svg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 h1:hover{
     background-color: rgba(0, 0, 0, 0.74);
 }
