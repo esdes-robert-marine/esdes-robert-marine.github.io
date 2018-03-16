@@ -28,6 +28,11 @@ header path {
     margin: auto;
     
 }
+svg {
+    width: 1500px;
+
+
+}
 
 header h1{
     color: white; 
