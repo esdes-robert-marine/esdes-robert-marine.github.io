@@ -25,6 +25,7 @@ header {
 header path {
     fill: transparent;
     stroke: white;
+    margin: auto;
     
 }
 
@@ -39,7 +40,8 @@ header h1{
     border-radius: 10px;
     padding: 20px;
     transition: background-color 0.3s ease-in-out;
-    margin: auto;
+   
+    
 
 }
 
