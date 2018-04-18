@@ -13,9 +13,9 @@ CV en ligne destiné aux recruteurs :
 ## Design Général 
 
  ### Typographie
- [Typo](/img/typocvmr.jpeg)
+ [Typo](typocvmr.jpeg)
  ### Nuancier
- [Nuancier](/img/colorscvmr.jpeg)
+ [Nuancier](colorscvmr.jpeg)
  
 
 ## Catégories
@@ -31,34 +31,34 @@ Lien vers CV PDF et Linkedin
 
 ### Page 1: accueil
 
-[page1](/img/diapositive1.jpeg)
+[page1](diapositive1.jpeg)
 
 Un paragraphe de présentation sur cette page expliquant l'objectif du site, ma recherche, les conditions de mon alternance. 
 
 ### Page 2: contact
-[page2](/img/diapositive2.jpeg)
+[page2](diapositive2.jpeg)
 
 Sous forme de carte de visite avec nom, prénom,âge, ville de résidence, numéro, mail 
 Une photo sur le côté droit
 
 ### Page 3: Expériences
-[page3](/img/diapositive3.jpeg)
+[page3](diapositive3.jpeg)
 
 Ensemble de mes expériences, dans des cadres qui s'aggrandissent lorsque l'on passe la souris dessus. 
 
 ### Page 4: Formations
-[page4](/img/diapositive4.jpeg)
+[page4](diapositive4.jpeg)
 
 Ensemble de mes Formations, dans des cadres qui s'aggrandissent lorsque l'on passe la souris dessus.
 
 ### Page 5: Compétences
-[page5](/img/diapositive5.jpeg)
+[page5](diapositive5.jpeg)
 
 En deux catégories : informatiques et linguistiques 
 
 
 ### Page 6: Références
-[page6](/img/diapositive1.jpeg)
+[page6](diapositive1.jpeg)
 
 Liens vers 2 Lettres de recommandations effectuées par des employeurs
 
