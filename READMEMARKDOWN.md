@@ -15,7 +15,7 @@ CV en ligne destiné aux recruteurs :
  ### Typographie
  [Typo](/typocvmr.png)
  ### Nuancier
- [Nuancier](/colorscvmr.png)
+ [Nuancier](COLORSCVMR.png)
  
 
 ## Catégories
