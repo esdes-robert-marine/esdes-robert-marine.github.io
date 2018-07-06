@@ -15,7 +15,7 @@
         
         /* Style the header */
         .header {
-            background-color: white;
+            background-color:rgba(255, 255, 255, 0.29);
             padding: 20px;
             text-align: center;
         }
@@ -36,7 +36,7 @@
         /* Style the top navigation bar */
         .topnav {
             overflow: hidden;
-            background-color: rgb(242, 229, 121);
+            background-color: rgba(255, 254, 245, 0.38);
             font-family: "Poiret One";
         }
         
@@ -44,7 +44,7 @@
         .topnav a {
             float: left;
             display: block;
-            color: #f2f2f2;
+            color: #F2F2F2;
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
@@ -52,7 +52,7 @@
         
         /* Change color on hover */
         .topnav a:hover {
-            background-color: #ddd;
+            background-color: #9FC4EE;
             color: black;
         }
         
@@ -60,7 +60,7 @@
 .column {
     float: left;
     padding: 10px;
-    color: white;
+    font-family: 'Poiret One';
 }
 
 /* Left and right column */
@@ -83,6 +83,21 @@
 .column h2{
     font-family: "poiret One";
 }
+
+.typewriter h1 {
+    font-family: 'Comfortaa'; 
+    font-size: 100px;
+    color:rgb(255, 255, 255);
+    overflow: hidden; 
+    border-right: .15em solid #E76B91; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    animation: 
+      typing 3.5s steps(30, end),
+      blinking-cursor .5s step-end infinite;
+  }
+  
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
@@ -124,20 +139,7 @@
         }
 
 
-        .typewriter h1 {
-            font-family: 'Comfortaa'; 
-            font-size: 100px;
-            color:rgb(250, 178, 198);
-            overflow: hidden; 
-            border-right: .15em solid #E76B91; 
-            white-space: nowrap; 
-            margin: 0 auto; 
-            letter-spacing: .15em; 
-            animation: 
-              typing 3.5s steps(30, end),
-              blinking-cursor .5s step-end infinite;
-          }
-          
+       
           /* The typing effect */
           @keyframes typing {
             from { width: 0 }

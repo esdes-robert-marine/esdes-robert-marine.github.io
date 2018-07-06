@@ -13,7 +13,7 @@ body {
         
 /* Style the header */
 .header {
-    background-color:white;
+    background-color:rgba(255, 255, 255, 0.29);
     padding: 20px;
     text-align: center;
 }
@@ -33,19 +33,21 @@ video {
 }
 
 .column p{
-    background-color:rgb(255, 177, 0);
+    background-color:rgba(255, 255, 255, 0.45);
 }
 
 .column h2{
     text-align: center;
     font-family: "Poiret One";
+    text-transform: uppercase;
 }
         
 /* Style the top navigation bar */
 .topnav {
     overflow: hidden;
-    background-color: rgb(242, 229, 121);
+    background-color: rgba(255, 254, 245, 0.38);
     font-family: "Poiret One";
+    text-transform: uppercase;
 }
         
 /* Style the topnav links */
@@ -60,7 +62,7 @@ video {
         
 /* Change color on hover */
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: #ECEB8C;
     color: black;
 }
         
@@ -77,6 +79,19 @@ video {
     display: table;
     clear: both;
 }
+.typewriter h1 {
+    font-family: 'Comfortaa'; 
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    overflow: hidden; 
+    border-right: .15em solid #E76B91; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    animation: 
+        typing 3.5s steps(30, end),
+        linking-cursor .5s step-end infinite;
+    }
         
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width:600px) {
@@ -112,19 +127,7 @@ video {
 }
 
 
-.typewriter h1 {
-    font-family: 'Comfortaa'; 
-    font-size: 100px;
-    color: rgb(255, 177, 0);
-    overflow: hidden; 
-    border-right: .15em solid #E76B91; 
-    white-space: nowrap; 
-    margin: 0 auto; 
-    letter-spacing: .15em; 
-    animation: 
-        typing 3.5s steps(30, end),
-        linking-cursor .5s step-end infinite;
-    }
+
           
 /* The typing effect */
 @keyframes typing {

@@ -13,7 +13,7 @@
         
         /* Style the header */
         .header {
-            background-color:white;
+            background-color:rgba(255, 255, 255, 0.29);
             padding: 20px;
             text-align: center;
         }
@@ -21,8 +21,9 @@
         /* Style the top navigation bar */
         .topnav {
             overflow: hidden;
-            background-color: rgb(242, 229, 121);
+            background-color: rgba(255, 254, 245, 0.38);
             font-family: "Poiret One";
+            text-transform: uppercase;
         }
         
         /* Style the topnav links */
@@ -37,7 +38,7 @@
         
         /* Change color on hover */
         .topnav a:hover {
-            background-color: #ddd;
+            background-color: #DBA1A1;
             color: black;
         }
         
@@ -46,7 +47,8 @@
             float: left;
             width: 50%;
             padding: 10px;
-            height: 300px; /* Should be removed. Only for demonstration */
+            height: 300px; 
+
         }
         
         /* Clear floats after the columns */
@@ -68,29 +70,24 @@
           background-size: cover;
           transition: 1s opacity;
      }
-        /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-        @media screen and (max-width:600px) {
-            .column {
-                width: 100%;
-            }
-        }
 
-        footer p{
-            color: white;
-            text-transform: uppercase;
-            letter-spacing: 10px;
-            text-align: center;
-            font-family: 'Poiret One';
-        }
+     .typewriter h1 {
+        font-family: 'Comfortaa'; 
+        font-size: 100px;
+        color: rgb(255, 255, 255);
+        overflow: hidden; 
+        border-right: .15em solid #E76B91; 
+        white-space: nowrap; 
+        margin: 0 auto; 
+        letter-spacing: .15em; 
+        animation: 
+          typing 3.5s steps(30, end),
+          blinking-cursor .5s step-end infinite;
+      }
 
+     
 
-
-        .footer {
-            padding: 20px;
-            text-align: center;
-            background: #ddd;
-            margin-top: 20px;
-        }
+  
         
         
         
@@ -122,21 +119,14 @@
         @media only screen and (min-width: 900px) {
         
         }
+   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+   @media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
 
 
-        .typewriter h1 {
-            font-family: 'Comfortaa'; 
-            font-size: 100px;
-            color: rgb(145, 220, 212);
-            overflow: hidden; 
-            border-right: .15em solid #E76B91; 
-            white-space: nowrap; 
-            margin: 0 auto; 
-            letter-spacing: .15em; 
-            animation: 
-              typing 3.5s steps(30, end),
-              blinking-cursor .5s step-end infinite;
-          }
           
           /* The typing effect */
           @keyframes typing {
