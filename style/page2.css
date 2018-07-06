@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Bad+Script');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700');
+
+* {
+            box-sizing: border-box;
+        }
+        
+        body {
+          margin: 0;
+          font-family: "comfortaa";
+        }
+        
+        /* Style the header */
+        .header {
+            background-color:white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        /* Style the top navigation bar */
+        .topnav {
+            overflow: hidden;
+            background-color: rgb(242, 229, 121);
+            font-family: "Poiret One";
+        }
+        
+        /* Style the topnav links */
+        .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        /* Change color on hover */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        
+        /* Create three equal columns that floats next to each other */
+        .column2 {
+            float: left;
+            width: 50%;
+            padding: 10px;
+            height: 300px; /* Should be removed. Only for demonstration */
+        }
+        
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        video { 
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -100;
+            transform: translateX(-50%) translateY(-50%);
+          background-size: cover;
+          transition: 1s opacity;
+     }
+        /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+        @media screen and (max-width:600px) {
+            .column {
+                width: 100%;
+            }
+        }
+
+        footer p{
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 10px;
+            text-align: center;
+            font-family: 'Poiret One';
+        }
+
+
+
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #ddd;
+            margin-top: 20px;
+        }
+        
+        
+        
+        
+        
+        /* For mobile phones: */
+        @media only screen and (max-width: 600px) {
+        
+            section {
+                flex-direction: row;
+                flex-wrap: nowrap;
+            }
+            article {
+                width: 80%;
+            }
+        
+        }
+        
+         /* For tablets: */
+        @media only screen and (min-width: 600px) and (max-width: 900px) {
+        
+            article {
+                width: 50%;
+            }
+        
+        }
+        
+         /* For desktop: */
+        @media only screen and (min-width: 900px) {
+        
+        }
+
+
+        .typewriter h1 {
+            font-family: 'Comfortaa'; 
+            font-size: 100px;
+            color: rgb(145, 220, 212);
+            overflow: hidden; 
+            border-right: .15em solid #E76B91; 
+            white-space: nowrap; 
+            margin: 0 auto; 
+            letter-spacing: .15em; 
+            animation: 
+              typing 3.5s steps(30, end),
+              blinking-cursor .5s step-end infinite;
+          }
+          
+          /* The typing effect */
+          @keyframes typing {
+            from { width: 0 }
+            to { width: 100% }
+          }
+          
+          /* The typewriter cursor effect */
+          @keyframes blinking-cursor {
+            from, to { border-color: transparent }
+            50% { border-color: #E068A4; }
+          }
+        
+        
